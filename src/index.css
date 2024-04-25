@@ -47,6 +47,7 @@ box-shadow:1px 1px 8px;
 .navbar li section button:hover{
   background-color: darkslategray;
   color:white;
+  cursor:pointer;
 }
 .navbar li button{
   margin-left:80px;
@@ -60,12 +61,19 @@ box-shadow:1px 1px 8px;
 .navbar li button:hover{
   background-color:darkslategray;
   color:white;
+  cursor:pointer;
 }
 
 /* HERO STYLING */
 
 .hero{
    background-color: rgb(226, 220, 220);
+}
+.hero .icon{
+  position:absolute;
+  margin-left:520px;
+  margin-top:85.5px;
+  color:rgb(226, 220, 220);
 }
 .hero input{
   margin-left:500px;
@@ -76,6 +84,11 @@ box-shadow:1px 1px 8px;
  border-radius:20px;
  background-color: darkslategray;
  color:white;
+}
+::placeholder {
+ 
+  color: white; /* Example color */
+  font-style: italic; /* Example font style */
 }
 .hero h1{
   margin-top:200px;
@@ -103,16 +116,9 @@ box-shadow:1px 1px 8px;
 .hero img{
   position:absolute;
   margin-top:250px;
-  height:250px;
-  width:250px;
   border-radius:5px;
 }
-.hero span img{
-  width:150px;
-  height:150px;
-  margin-left:200px;
-  margin-top:150px;
-}
+
 
 /*  POPULAR GARRI STYLING */
 .popular{
@@ -144,11 +150,12 @@ border-top-left-radius: 8px;
   position:absolute;
   margin-left:10px;
   margin-top:10px;
+  cursor:pointer;
 }
 
 .container .section{
   background-color: darkslategray;
-  margin-right:80px;
+  margin-right:75.5px;
   color:white;
   padding-left:10px;
   padding-top:10px;
@@ -158,45 +165,65 @@ border-top-left-radius: 8px;
 }
 
  .container .section button{
-  /* background-color:coral; */
   margin-top:10px;
   color:darkslategray;
-  /* background-color: green; */
  padding:10px 15px;
   border:none;
   border-radius:8px;
+  cursor:pointer;
 } 
 
 /* SAPARIANS STYLING */
 
 .sapa{
   background-color: darkslategray;
-  padding-top: 100px;
+  padding-top: 50px;
+  /* margin-bottom:50px; */
    color:white;
-    display:flex;
-    text-indent:50px;
+  
 }
-/* .sapa h3{
+.sapa h3{
   text-align:center;
+  padding-bottom:30px;
+}
+
+.sapa input{
+  background-color: white;
+  padding:10px 30px;
+  border:none;
+  outline:none;
+  margin-left:500px;
+}
+.sapa ::placeholder {
+
+  color: darkslategray; 
+  font-style: italic; 
+}
+.sapa button{
+  background-color:lightslategrey;
+  color:white;
+  padding:10px 15px;
+  border:none;
+  outline:none;
+  margin-bottom:30px;
+}
+
+.sapa button:hover{
+  background-color: rgb(52, 128, 128);
+  color:white;
+  cursor:pointer;
+}
+/* FOOTER STYLING */
+
+.footer{
+  box-shadow: 1px 1px 8px;
+  margin-top:40px;
+}
+.footer p{
+  text-align:center;
+  padding-top:20px;
   padding-bottom:10px;
-} */
-.sapa .section{
-  background-color:rgb(44, 59, 59);
-  margin-left:30px;
-  margin-right:250px;
-
 }
-.sapa .section1{
-  margin-right:250px;
-  background-color:rgb(44, 59, 59);
-  padding:20px 40px;
-}
-
-.sapa .section2{
-   background-color:rgb(44, 59, 59);
-}
-
-
 
 
 

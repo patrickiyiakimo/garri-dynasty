@@ -1,14 +1,12 @@
-import garri from "../images/yellow-Garri.jpg";
-import smallgarri from "../images/Abebi garri.jpg";
+import garri from "../images/yellow-garri-white-on-background-260nw-2174347367.jpg";
+import { FaSearch } from "react-icons/fa";
 
 const Hero = () => {
   return (
     <div className="hero">
+      <FaSearch className="icon"/>
       <input type="text" placeholder="search favourite garri here" />
       <img src={garri} alt="garri-pics" />
-      <span>
-        <img src={smallgarri} alt="smallgarri" />
-      </span>
       <h1>Saving Nigerians since 1929</h1>
       <p>The hunger destroyer</p>
       <p>
