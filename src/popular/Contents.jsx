@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import NagikoImage from "../images/Nagiko Garri.jpg"; 
-
+import { toast } from "react-toastify";
 
 
 const Contents = () => {
@@ -148,6 +148,30 @@ const Contents = () => {
         id: 20,
       },
     ]);
+  
+  
+  const notify = () => {
+   toast.success("added to cart successfully!", {
+     position: "top-right",
+     autoClose: 3000,
+     hideProgressBar: false,
+     closeOnClick: true,
+     pauseOnHover: true,
+     draggable: true,
+     progress: undefined,
+     theme: "dark",
+   });
+    toast.error("Removed from cart!", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  }
 
   return (
     <div className="content">
@@ -159,7 +183,7 @@ const Contents = () => {
             <p>{item.title}</p>
             <p>{item.price}</p>
             <p>{item.rating}</p>
-            <button>ADD TO CART</button>
+            <button onClick={notify}>ADD TO CART</button>
           </div>
         </div>
       ))}
