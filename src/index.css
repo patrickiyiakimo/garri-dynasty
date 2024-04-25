@@ -131,17 +131,41 @@ box-shadow:1px 1px 8px;
    display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap:40px;
-  padding-left:40px;
+  padding-left:60px;
+  padding-bottom:60px;
 }
 
+.container img{
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+}
 
+.container .svg{
+  position:absolute;
+  margin-left:10px;
+  margin-top:10px;
+}
 
+.container .section{
+  background-color: darkslategray;
+  margin-right:80px;
+  color:white;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
 
-
-
-
-
-
+ .container .section button{
+  /* background-color:coral; */
+  margin-top:10px;
+  color:darkslategray;
+  /* background-color: green; */
+ padding:10px 15px;
+  border:none;
+  border-radius:8px;
+} 
 
 
 

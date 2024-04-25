@@ -153,12 +153,14 @@ const Contents = () => {
     <div className="content">
       {items.map((item) => (
         <div className="container" key={item.id}>
-          <FaHeart className="svg"/>
+          <FaHeart className="svg" />
           <img src={NagikoImage} alt="nakigo" />
-          <p>{item.title}</p>
-          <p>{item.price}</p>
-          <p>{item.rating}</p>
-          <button>ADD TO CART</button>
+          <div className="section">
+            <p>{item.title}</p>
+            <p>{item.price}</p>
+            <p>{item.rating}</p>
+            <button>ADD TO CART</button>
+          </div>
         </div>
       ))}
     </div>
