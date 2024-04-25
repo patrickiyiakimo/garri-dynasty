@@ -123,8 +123,13 @@ padding-bottom:15px;
   padding-bottom:20px;
 }
 
-
-
+/* CONTENT STYLING */
+.content {
+   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:40px;
+  padding-left:40px;
+}
 
 
 
