@@ -1,3 +1,4 @@
+
 import Hero from "./hero/Hero";
 import Navbar from "./navbar/Navbar";
 import PopularGarri from "./popular/PopularGarri";

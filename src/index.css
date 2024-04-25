@@ -167,6 +167,60 @@ border-top-left-radius: 8px;
   border-radius:8px;
 } 
 
+/* SAPARIANS STYLING */
+
+.sapa{
+  background-color: darkslategray;
+  padding-top: 100px;
+   color:white;
+    display:flex;
+    text-indent:50px;
+}
+/* .sapa h3{
+  text-align:center;
+  padding-bottom:10px;
+} */
+.sapa .section{
+  background-color:rgb(44, 59, 59);
+  margin-left:30px;
+  margin-right:250px;
+
+}
+.sapa .section1{
+  margin-right:250px;
+  background-color:rgb(44, 59, 59);
+  padding:20px 40px;
+}
+
+.sapa .section2{
+   background-color:rgb(44, 59, 59);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,3 +1,4 @@
+import Saparians from "../Sapa/Saparians";
 import Contents from "./Contents";
 
 
@@ -8,6 +9,7 @@ const PopularGarri = () => {
         <div className="popular">
             <h1>{title}</h1>
             <Contents />
+            <Saparians />
         </div>
     );
 }
