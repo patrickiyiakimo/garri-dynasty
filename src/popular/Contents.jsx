@@ -5,7 +5,8 @@ import { toast } from "react-toastify";
 
 
 const Contents = () => {
-    const [items, setItems] = useState([
+    const [value, setValue] = useState("ADD TO CART")
+    const [defaultItems, setDefaultItems] = useState([
       {
       
         title: "Nagiko Garri",
@@ -147,11 +148,14 @@ const Contents = () => {
         rating: "Rating: 4.5",
         id: 20,
       },
+      
     ]);
   
   
-  const notify = () => {
-   toast.success("added to cart successfully!", {
+  
+  const notify = (item) => {
+
+   toast.success(`${ item.title } added to cart successfully`, {
      position: "top-right",
      autoClose: 3000,
      hideProgressBar: false,
@@ -161,7 +165,7 @@ const Contents = () => {
      progress: undefined,
      theme: "dark",
    });
-    toast.error("Removed from cart!", {
+    toast.error(`${ item.title } Removed from cart`, {
       position: "top-right",
       autoClose: 3000,
       hideProgressBar: false,
@@ -171,19 +175,21 @@ const Contents = () => {
       progress: undefined,
       theme: "dark",
     });
+
+
   }
 
   return (
     <div className="content">
-      {items.map((item) => (
-        <div className="container" key={item.id}>
+      {defaultItems.map((item) => (
+        <div className="container" key={item.id} >
           <FaHeart className="svg" />
           <img src={NagikoImage} alt="nakigo" />
           <div className="section">
             <p>{item.title}</p>
             <p>{item.price}</p>
             <p>{item.rating}</p>
-            <button onClick={notify}>ADD TO CART</button>
+            <button onClick={() => notify(item)}>ADD TO CART</button>
           </div>
         </div>
       ))}
