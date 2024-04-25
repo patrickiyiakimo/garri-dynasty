@@ -8,10 +8,11 @@ body {
 }
 
 .navbar{
-  background-color: blueviolet;
-  color:white;
+  background-color: rgb(226, 220, 220);
+  color:darkslategray;
 padding-top:15px;
 padding-bottom:15px;
+box-shadow:1px 1px 8px;
 }
 .navbar ul{
   display:flex;
@@ -22,8 +23,8 @@ padding-bottom:15px;
  cursor:pointer;
 }
 .navbar li span button{
-  background-color:white;
-  color:grey;
+  background-color:darkslategray;
+  color:white;
   margin-left:30px;
   padding:10px;
   outline:none;
@@ -41,10 +42,10 @@ padding-bottom:15px;
   border-radius:5px;
   border:none;
   outline:none;
-  color:white;
+  color:darkslategray;
 }
 .navbar li section button:hover{
-  background-color: rgb(98, 47, 146);
+  background-color: darkslategray;
   color:white;
 }
 .navbar li button{
@@ -52,19 +53,19 @@ padding-bottom:15px;
   background-color: transparent;
   border:none;
   outline:none;
-  color:white;
+  color:darkslategray;
   padding:10px 15px;
   border-radius:5px;
 }
 .navbar li button:hover{
-  background-color: rgb(98, 47, 146);
+  background-color:darkslategray;
   color:white;
 }
 
 /* HERO STYLING */
 
 .hero{
-  background-color: rgb(108, 27, 183);
+   background-color: rgb(226, 220, 220);
 }
 .hero input{
   margin-left:500px;
@@ -73,41 +74,43 @@ padding-bottom:15px;
  border:none;
  outline:none;
  border-radius:20px;
+ background-color: darkslategray;
+ color:white;
 }
 .hero h1{
   margin-top:200px;
   margin-left:100px;
-  color:rgb(226, 220, 220);
+  color:darkslategray;
   
 }
 .hero p{
-  margin-left:250px;
+  margin-left:100px;
   padding-top:10px;
-  color:rgb(226, 220, 220);
+ color:darkslategray;
 }
 .hero button{
   margin-top:40px;
-  margin-left:200px;
+  margin-left:250px;
   margin-bottom:150px;
   padding:10px 20px;
   border-radius:15px;
   border:none;
   outline:none;
-  color:rgb(226, 220, 220);
-  background-color:rgb(75, 45, 102);
+  color:white;
+  background-color:darkslategray;
 
 }
 .hero img{
   position:absolute;
   margin-top:250px;
-  height:300px;
-  width:300px;
+  height:250px;
+  width:250px;
   border-radius:5px;
 }
 .hero span img{
   width:150px;
   height:150px;
-  margin-left:300px;
+  margin-left:200px;
   margin-top:150px;
 }
 
