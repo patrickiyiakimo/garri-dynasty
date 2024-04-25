@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar{
+  background-color: blueviolet;
+  color:white;
+padding-top:15px;
+padding-bottom:15px;
+}
+.navbar ul{
+  display:flex;
+  list-style-type: none;
+}
+.navbar li:hover{
+ text-decoration: underline;
+ cursor:pointer;
+}
+.navbar li span button{
+  background-color:white;
+  color:grey;
+  margin-left:30px;
+  padding:10px;
+  outline:none;
+  border-radius:8px;
+  border:none;
+  margin-right:80px;
+}
+.navbar li{
+  margin-right:70px;
+}
+.navbar li section button{
+  margin-left:80px;
+  background-color: transparent;
+  padding:10px 15px;
+  border-radius:5px;
+  border:none;
+  outline:none;
+  color:white;
+}
+.navbar li section button:hover{
+  background-color: rgb(98, 47, 146);
+  color:white;
+}
+.navbar li button{
+  margin-left:80px;
+  background-color: transparent;
+  border:none;
+  outline:none;
+  color:white;
+  padding:10px 15px;
+  border-radius:5px;
+}
+.navbar li button:hover{
+  background-color: rgb(98, 47, 146);
+  color:white;
+}
+
+/* HERO STYLING */
+
+.hero{
+  background-color: rgb(108, 27, 183);
+}
+.hero input{
+  margin-left:500px;
+  margin-top:70px;
+ padding:15px 70px;
+ border:none;
+ outline:none;
+ border-radius:20px;
+}
+.hero h1{
+  margin-top:200px;
+  margin-left:100px;
+  color:rgb(226, 220, 220);
+  
+}
+.hero p{
+  margin-left:250px;
+  padding-top:10px;
+  color:rgb(226, 220, 220);
+}
+.hero button{
+  margin-top:40px;
+  margin-left:200px;
+  margin-bottom:150px;
+  padding:10px 20px;
+  border-radius:15px;
+  border:none;
+  outline:none;
+  color:rgb(226, 220, 220);
+  background-color:rgb(75, 45, 102);
+
+}
+.hero img{
+  position:absolute;
+  margin-top:250px;
+  height:300px;
+  width:300px;
+  border-radius:5px;
+}
+.hero span img{
+  width:150px;
+  height:150px;
+  margin-left:300px;
+  margin-top:150px;
+}
+
+/*  POPULAR GARRI STYLING */
+.popular{
+  background-color: rgb(226, 220, 220);
+}
+.popular h1{
+  text-align: center;
+  text-decoration: underline;
+  padding-top:40px;
+  color:darkslategray;
+  padding-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
