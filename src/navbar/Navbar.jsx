@@ -1,5 +1,6 @@
 import React from "react";
 import { FaShoppingCart, FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,9 +13,11 @@ const Navbar = () => {
         </li>
         <li>Home</li>
         <li>About Us</li>
-        <li>Contact Us</li>
+        <li>Subscribe</li>
         <li>
-          <FaShoppingCart color="" />
+          <Link to="cartlist" className="cart">
+            <FaShoppingCart color="" />
+          </Link>
         </li>
         <li>
           <FaHeart color="" />

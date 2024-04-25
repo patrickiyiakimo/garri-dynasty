@@ -18,6 +18,9 @@ box-shadow:1px 1px 8px;
   display:flex;
   list-style-type: none;
 }
+.navbar .cart{
+  color:darkslategray
+}
 .navbar li:hover{
  text-decoration: underline;
  cursor:pointer;

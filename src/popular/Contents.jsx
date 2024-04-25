@@ -165,16 +165,16 @@ const Contents = () => {
      progress: undefined,
      theme: "dark",
    });
-    toast.error(`${ item.title } Removed from cart`, {
-      position: "top-right",
-      autoClose: 3000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "dark",
-    });
+    // toast.error(`${ item.title } Removed from cart`, {
+    //   position: "top-right",
+    //   autoClose: 3000,
+    //   hideProgressBar: false,
+    //   closeOnClick: true,
+    //   pauseOnHover: true,
+    //   draggable: true,
+    //   progress: undefined,
+    //   theme: "dark",
+    // });
 
 
   }

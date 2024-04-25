@@ -7,7 +7,7 @@ const Hero = () => {
       <FaSearch className="icon"/>
       <input type="text" placeholder="search favourite garri here" />
       <img src={garri} alt="garri-pics" />
-      <h1>Saving Nigerians since 1929</h1>
+      <h1>The Garri Dynasty, Saving<br/> Nigerians since 1929</h1>
       <p>The hunger destroyer</p>
       <p>
         Lorem ipsum dolor sit amet consectetur, <br/>adipisicing elit. Facilis,
