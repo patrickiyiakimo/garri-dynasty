@@ -5,15 +5,16 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
+      <button className="bubu">Garri Dynasty</button>
       <ul>
         <li>
           <span>
             <button>Garri Dynasty</button>
           </span>
         </li>
-        <li className="link">Home</li>
-        <li className="link">About Us</li>
-        <li className="link">Subscribe</li>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Subscribe</li>
         <li>
           <Link to="cartlist" className="cart">
             <FaShoppingCart color="" />

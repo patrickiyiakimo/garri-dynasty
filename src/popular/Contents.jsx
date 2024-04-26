@@ -157,7 +157,7 @@ const Contents = () => {
 
    toast.success(`${ item.title } added to cart successfully`, {
      position: "top-right",
-     autoClose: 3000,
+     autoClose: 5000,
      hideProgressBar: false,
      closeOnClick: true,
      pauseOnHover: true,
