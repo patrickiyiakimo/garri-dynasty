@@ -48,6 +48,7 @@ box-shadow:1px 1px 8px;
 }
 .navbar li{
   margin-right:70px;
+  /* display:none; */
 }
 .navbar li section button{
   margin-left:80px;
@@ -148,7 +149,7 @@ box-shadow:1px 1px 8px;
 
 /* CONTENT STYLING */
 .content {
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap:40px;
   padding-left:60px;
@@ -240,6 +241,57 @@ border-top-left-radius: 8px;
 }
 
 
+/* CARTLIST STYLING */
+
+
+section{
+  background-color: rgb(226, 220, 220);
+}
+
+section h3{
+  text-align:center;
+  color:darkslategray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MOBILE DEVICE STLYING */
 
@@ -255,7 +307,7 @@ border-top-left-radius: 8px;
   /* display:none; */
 
 }
-.navbar .bubu{
+.navbar button .bubu{
    background-color:darkslategray;
   color:white;
   margin-left:20px;
@@ -263,8 +315,8 @@ border-top-left-radius: 8px;
   outline:none;
   border-radius:8px;
   border:none;
-  margin-right:20px;
-
+  /* margin-right:20px; */
+  /* display:none; */
 }
 .navbar ul li .link{
   display: none;
@@ -272,7 +324,7 @@ border-top-left-radius: 8px;
 .navbar ul{
   display:flex;
   list-style-type: none;
-  /* display: none; */
+  display: none;
 }
 .navbar .cart{
   color:darkslategray;
@@ -306,7 +358,6 @@ border-top-left-radius: 8px;
   outline:none;
   color:darkslategray;
   display:none;
-
 }
 
 /* HERO STYLING */
@@ -366,8 +417,8 @@ border-top-left-radius: 8px;
 .hero img{
   /* position:absolute; */
   /* padding-right:20px; */
-  right:60px;
-  width:290px;
+  right:50px;
+  width:350px;
   height:200px;
   margin-top:450px;
   border-radius:5px;
@@ -462,7 +513,7 @@ border-top-left-radius: 8px;
 .sapa button{
   background-color:lightslategrey;
   color:white;
-  padding:10px 15px;
+  padding:10px 10px;
   border:none;
   outline:none;
   margin-bottom:30px;

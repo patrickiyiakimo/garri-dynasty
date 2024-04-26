@@ -1,11 +1,14 @@
-import React from 'react'
-
-
+import React from "react";
 
 const CartList = () => {
-  return (
-    <div>CartList</div>
-  )
-}
+   
+    
+    return (
+      <section>
+            <h3>Cart List</h3>
+            
+      </section>
+    );
+};
 
-export default CartList
+export default CartList;

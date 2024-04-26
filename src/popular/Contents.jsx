@@ -2,10 +2,11 @@ import { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import NagikoImage from "../images/Nagiko Garri.jpg"; 
 import { toast } from "react-toastify";
+import CartList from "../cartlist/CartList";
 
 
 const Contents = () => {
-    const [value, setValue] = useState("ADD TO CART")
+  const [cart, setCart] = useState([]);
     const [defaultItems, setDefaultItems] = useState([
       {
       
@@ -153,7 +154,9 @@ const Contents = () => {
   
   
   
-  const notify = (item) => {
+  const notify = (item, cartitems) => {
+
+    setCart([...cart, cartitems]);
 
    toast.success(`${ item.title } added to cart successfully`, {
      position: "top-right",
@@ -182,7 +185,7 @@ const Contents = () => {
   return (
     <div className="content">
       {defaultItems.map((item) => (
-        <div className="container" key={item.id} >
+        <div className="container" key={item.id}>
           <FaHeart className="svg" />
           <img src={NagikoImage} alt="nakigo" />
           <div className="section">

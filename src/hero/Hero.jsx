@@ -9,7 +9,7 @@ const Hero = () => {
       <img src={garri} alt="garri-pics" />
       <h1>
         The Garri Dynasty, <br />
-        Saving Nigerians since 1929
+        Saving Nigerians since 1900
       </h1>
       <p>The hunger destroyer</p>
       <p>
