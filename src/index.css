@@ -14,17 +14,14 @@ padding-top:15px;
 padding-bottom:15px;
 box-shadow:1px 1px 8px;
 }
-.navbar .bubu{
-   background-color:darkslategray;
-  color:white;
-  margin-left:20px;
-  padding:10px;
-  outline:none;
-  border-radius:8px;
+.navbar .bub{
   border:none;
-  margin-right:20px;
-  display:none;
+  background-color:transparent;
+  color:rgb(226, 220, 220);
+
 }
+
+
 .navbar ul{
   display:flex;
   list-style-type: none;
@@ -48,7 +45,6 @@ box-shadow:1px 1px 8px;
 }
 .navbar li{
   margin-right:70px;
-  /* display:none; */
 }
 .navbar li section button{
   margin-left:80px;
@@ -102,8 +98,8 @@ box-shadow:1px 1px 8px;
 }
 ::placeholder {
  
-  color: white; /* Example color */
-  font-style: italic; /* Example font style */
+  color: white; 
+  font-style: italic; 
 }
 .hero h1{
   margin-top:200px;
@@ -193,7 +189,6 @@ border-top-left-radius: 8px;
 .sapa{
   background-color: darkslategray;
   padding-top: 50px;
-  /* margin-bottom:50px; */
    color:white;
   
 }
@@ -275,24 +270,6 @@ section h3{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MOBILE DEVICE STLYING */
 
 
@@ -303,9 +280,15 @@ section h3{
   color:darkslategray;
   padding-top:15px;
   padding-bottom:15px;
-  /* box-shadow:1px 1px 8px; */
-  /* display:none; */
-
+}
+.navbar .bub{
+    background-color:darkslategray;
+  color:white;
+  margin-left:20px;
+  padding:10px;
+  outline:none;
+  border-radius:8px;
+  border:none;
 }
 .navbar button{
    background-color:darkslategray;
@@ -315,16 +298,11 @@ section h3{
   outline:none;
   border-radius:8px;
   border:none;
-  /* margin-right:20px; */
-  /* display:none; */
 }
-/* .navbar ul li .link{
-  display: none;
-} */
+
 .navbar ul{
   display:flex;
   list-style-type: none;
-  /* display: none; */
 }
 .navbar .cart{
   color:darkslategray;
@@ -343,7 +321,6 @@ section h3{
   border-radius:8px;
   border:none;
   margin-right:20px;
-   /* display: none; */
 }
 .navbar li{
   margin-right:70px;
@@ -367,12 +344,9 @@ section h3{
 }
 .hero .icon{
   position:absolute;
-  /* margin-left:85px; */
   right:330px;
   margin-top:45.5px;
-  /* color:rgb(226, 220, 220); */
   color:rgb(226, 220, 220);
-  /* display:none; */
 }
 .hero input{
   margin-left:50px;
@@ -383,12 +357,11 @@ section h3{
  border-radius:20px;
  background-color: darkslategray;
  color:white;
- /* display:none; */
 }
 ::placeholder {
  
-  color: white; /* Example color */
-  font-style: italic; /* Example font style */
+  color: white; 
+  font-style: italic; 
 }
 .hero h1{
   margin-top:60px;
@@ -416,8 +389,6 @@ section h3{
 
 }
 .hero img{
-  /* position:absolute; */
-  /* padding-right:20px; */
   right:35.5px;
   width:350px;
   height:200px;
@@ -489,7 +460,6 @@ border-top-left-radius: 8px;
 .sapa{
   background-color: darkslategray;
   padding-top: 50px;
-  /* margin-bottom:50px; */
    color:white;
   margin-right:10px;
 }
@@ -529,7 +499,6 @@ border-top-left-radius: 8px;
 
 .footer{
   box-shadow: 1px 1px 8px;
-  /* margin-right:80px; */
   margin-top:40px;
 }
 .footer p{
@@ -537,15 +506,7 @@ border-top-left-radius: 8px;
   margin-right:10px;
   padding-top:10px;
   padding-bottom:10px;
-  /* display:none; */
 }
-
-
-
-
-
-
-
 
 }
 
