@@ -377,7 +377,7 @@ section h3{
 .hero input{
   margin-left:50px;
   margin-top:30px;
- padding:15px 50px;
+ padding:15px 80px;
  border:none;
  outline:none;
  border-radius:20px;
@@ -418,7 +418,7 @@ section h3{
 .hero img{
   /* position:absolute; */
   /* padding-right:20px; */
-  right:50px;
+  right:35.5px;
   width:350px;
   height:200px;
   margin-top:450px;
@@ -447,7 +447,7 @@ section h3{
    display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap:40px;
-  padding-left:80px;
+  padding-left:100px;
   padding-bottom:60px;
 }
 
@@ -465,7 +465,7 @@ border-top-left-radius: 8px;
 
 .container .section{
   background-color: darkslategray;
-  margin-right:120px;
+  margin-right:100px;
   color:white;
   padding-left:10px;
   padding-top:10px;
