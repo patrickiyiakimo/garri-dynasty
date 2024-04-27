@@ -504,7 +504,7 @@ border-top-left-radius: 8px;
   padding:10px 30px;
   border:none;
   outline:none;
-  margin-left:40px;
+  margin-left:60px;
 }
 .sapa ::placeholder {
 
@@ -514,7 +514,7 @@ border-top-left-radius: 8px;
 .sapa button{
   background-color:lightslategrey;
   color:white;
-  padding:10px 9px;
+  padding:10px 12px;
   border:none;
   outline:none;
   margin-bottom:30px;
