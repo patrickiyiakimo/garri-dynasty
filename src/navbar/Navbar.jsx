@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <button className="bubu">Garri Dynasty</button>
+      <button className="bub">Garri Dynasty</button>
       <ul>
         <li>
           <span>

@@ -15,7 +15,7 @@ const Hero = () => {
       <p>
         Lorem ipsum dolor sit amet consectetur, <br />
         adipisicing elit. Facilis, nobis! Modi dolores eligendi
-        <br /> nisi impedit, et, hic assumenda dolorum, minima voluptatem odio
+        <br /> nisi impedit, et, hic assumenda dolorum,<br/> minima voluptatem odio
         amet! Nisi.
       </p>
       <button>GET STARTED</button>

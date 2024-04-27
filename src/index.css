@@ -307,7 +307,7 @@ section h3{
   /* display:none; */
 
 }
-.navbar button .bubu{
+.navbar button{
    background-color:darkslategray;
   color:white;
   margin-left:20px;
@@ -318,13 +318,13 @@ section h3{
   /* margin-right:20px; */
   /* display:none; */
 }
-.navbar ul li .link{
+/* .navbar ul li .link{
   display: none;
-}
+} */
 .navbar ul{
   display:flex;
   list-style-type: none;
-  display: none;
+  /* display: none; */
 }
 .navbar .cart{
   color:darkslategray;
@@ -343,7 +343,7 @@ section h3{
   border-radius:8px;
   border:none;
   margin-right:20px;
-   display: none;
+   /* display: none; */
 }
 .navbar li{
   margin-right:70px;
@@ -367,14 +367,15 @@ section h3{
 }
 .hero .icon{
   position:absolute;
-  margin-left:85px;
+  /* margin-left:85px; */
+  right:330px;
   margin-top:45.5px;
   /* color:rgb(226, 220, 220); */
   color:rgb(226, 220, 220);
   /* display:none; */
 }
 .hero input{
-  margin-left:70px;
+  margin-left:50px;
   margin-top:30px;
  padding:15px 50px;
  border:none;
@@ -392,7 +393,7 @@ section h3{
 .hero h1{
   margin-top:60px;
   margin-left:30px;
-  margin-right:90px;
+  margin-right:10px;
   color:darkslategray;
   
 }
@@ -446,7 +447,7 @@ section h3{
    display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap:40px;
-  padding-left:100px;
+  padding-left:80px;
   padding-bottom:60px;
 }
 
@@ -464,7 +465,7 @@ border-top-left-radius: 8px;
 
 .container .section{
   background-color: darkslategray;
-  margin-right:100px;
+  margin-right:120px;
   color:white;
   padding-left:10px;
   padding-top:10px;
@@ -494,7 +495,7 @@ border-top-left-radius: 8px;
 }
 .sapa h3{
   text-align:center;
-  margin-right:10px;
+  margin-right:20px;
   padding-bottom:30px;
 }
 
@@ -503,7 +504,7 @@ border-top-left-radius: 8px;
   padding:10px 20px;
   border:none;
   outline:none;
-  margin-left:50px;
+  margin-left:40px;
 }
 .sapa ::placeholder {
 
@@ -513,7 +514,7 @@ border-top-left-radius: 8px;
 .sapa button{
   background-color:lightslategrey;
   color:white;
-  padding:10px 10px;
+  padding:10px 9px;
   border:none;
   outline:none;
   margin-bottom:30px;
