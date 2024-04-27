@@ -415,7 +415,7 @@ section h3{
 
 
 .content {
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap:40px;
   padding-left:100px;
@@ -423,6 +423,7 @@ section h3{
 }
 
 .container img{
+  width:300px;
 border-top-right-radius: 8px;
 border-top-left-radius: 8px;
 }
@@ -436,7 +437,7 @@ border-top-left-radius: 8px;
 
 .container .section{
   background-color: darkslategray;
-  margin-right:100px;
+  margin-right:13.5px;
   color:white;
   padding-left:10px;
   padding-top:10px;
