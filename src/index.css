@@ -273,7 +273,7 @@ section h3{
 /* MOBILE DEVICE STLYING */
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   /* Your CSS styles for mobile devices here */
 .navbar{
   background-color: rgb(226, 220, 220);
@@ -344,14 +344,14 @@ section h3{
 }
 .hero .icon{
   position:absolute;
-  right:330px;
+  right:260px;
   margin-top:45.5px;
   color:rgb(226, 220, 220);
 }
 .hero input{
-  margin-left:50px;
+  margin-left:20px;
   margin-top:30px;
- padding:15px 80px;
+ padding:15px 50px;
  border:none;
  outline:none;
  border-radius:20px;
@@ -364,6 +364,7 @@ section h3{
   font-style: italic; 
 }
 .hero h1{
+  /* font-size:90px; */
   margin-top:60px;
   margin-left:30px;
   margin-right:10px;
@@ -389,10 +390,10 @@ section h3{
 
 }
 .hero img{
-  right:35.5px;
-  width:350px;
+  right:10px;
+  width:300px;
   height:200px;
-  margin-top:450px;
+  margin-top:550px;
   border-radius:5px;
 }
 
@@ -406,7 +407,7 @@ section h3{
   text-align: center;
   text-decoration: underline;
   padding-top:90px;
-  padding-right:40px;
+  padding-right:25px;
   color:darkslategray;
   padding-bottom:20px;
 }
@@ -418,7 +419,7 @@ section h3{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap:40px;
-  padding-left:50px;
+  padding-left:10px;
   padding-bottom:60px;
 }
 
@@ -437,7 +438,7 @@ border-top-left-radius: 8px;
 
 .container .section{
   background-color: darkslategray;
-  margin-right:64.5px;
+  margin-right:11.5px;
   color:white;
   padding-left:10px;
   padding-top:10px;
@@ -466,16 +467,16 @@ border-top-left-radius: 8px;
 }
 .sapa h3{
   text-align:center;
-  margin-right:20px;
+  margin-right:10px;
   padding-bottom:30px;
 }
 
 .sapa input{
   background-color: white;
-  padding:10px 30px;
+  padding:10px 20px;
   border:none;
   outline:none;
-  margin-left:60px;
+  margin-left:10px;
 }
 .sapa ::placeholder {
 
@@ -504,7 +505,7 @@ border-top-left-radius: 8px;
 }
 .footer p{
   text-align:center;
-  margin-right:10px;
+  margin-right:5px;
   padding-top:10px;
   padding-bottom:10px;
 }
