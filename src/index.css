@@ -515,7 +515,7 @@ border-top-left-radius: 8px;
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
 
 .hero .icon{
   position:absolute;
