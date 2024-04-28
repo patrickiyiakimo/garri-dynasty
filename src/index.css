@@ -273,7 +273,7 @@ section h3{
 /* MOBILE DEVICE STLYING */
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px){
   /* Your CSS styles for mobile devices here */
 .navbar{
   background-color: rgb(226, 220, 220);
@@ -348,9 +348,9 @@ section h3{
   margin-top:45.5px;
   color:rgb(226, 220, 220);
 }
-.hero br{
+/* .hero br{
   display:none;
-}
+} */
 .hero input{
   margin-left:20px;
   margin-top:30px;
@@ -515,7 +515,156 @@ border-top-left-radius: 8px;
 
 }
 
+@media only screen and (min-width: 480px) {
 
+.hero .icon{
+  position:absolute;
+  right:260px;
+  margin-top:45.5px;
+  color:rgb(226, 220, 220);
+}
+
+.hero input{
+  margin-left:20px;
+  margin-top:30px;
+ padding:15px 80px;
+ border:none;
+ outline:none;
+ border-radius:20px;
+ background-color: darkslategray;
+ color:white;
+}
+.hero .icon{
+  position:absolute;
+  right:400px;
+  margin-top:45.5px;
+  color:rgb(226, 220, 220);
+}
+.hero h1{
+  margin-top:40px;
+  margin-left:20px;
+   margin-right:20px;
+  color:darkslategray;
+}
+
+.hero img{
+  right:140px;
+  width:300px;
+  height:200px;
+  margin-top:400px;
+  border-radius:5px;
+}
+.popular h1{
+  text-align: center;
+  text-decoration: underline;
+  padding-top:90px;
+  padding-right:25px;
+  color:darkslategray;
+  padding-bottom:20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap:40px;
+  padding-left:40px;
+  padding-bottom:60px;
+}
+
+.container img{
+  width:300px;
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+}
+
+.container .svg{
+  position:absolute;
+  margin-left:10px;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+.container .section{
+  background-color: darkslategray;
+  margin-right:139px;
+  color:white;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+ .container .section button{
+  margin-top:10px;
+  color:darkslategray;
+  padding:10px 15px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+} 
+
+
+/* SAPARIANS STYLING */
+
+.sapa{
+  background-color: darkslategray;
+  padding-top: 50px;
+   color:white;
+  margin-right:10px;
+}
+.sapa h3{
+  text-align:center;
+  margin-right:10px;
+  padding-bottom:30px;
+}
+
+.sapa input{
+  background-color: white;
+  padding:10px 20px;
+  border:none;
+  outline:none;
+  margin-left:10px;
+}
+.sapa ::placeholder {
+
+  color: darkslategray; 
+  font-style: italic; 
+}
+.sapa button{
+  background-color:lightslategrey;
+  color:white;
+  padding:10px 12px;
+  border:none;
+  outline:none;
+  margin-bottom:30px;
+}
+
+.sapa button:hover{
+  background-color: rgb(52, 128, 128);
+  color:white;
+  cursor:pointer;
+}
+/* FOOTER STYLING */
+
+.footer{
+  box-shadow: 1px 1px 8px;
+  margin-top:40px;
+}
+.footer p{
+  text-align:center;
+  margin-right:5px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+
+
+
+
+
+}
 
 
 
