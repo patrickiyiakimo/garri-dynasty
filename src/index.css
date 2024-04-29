@@ -273,7 +273,7 @@ section h3{
 /* MOBILE DEVICE STLYING */
 
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 750px){
   /* Your CSS styles for mobile devices here */
 .navbar{
   background-color: rgb(226, 220, 220);
