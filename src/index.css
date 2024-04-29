@@ -273,7 +273,7 @@ section h3{
 /* MOBILE DEVICE STLYING */
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 750px){
   /* Your CSS styles for mobile devices here */
 .navbar{
   background-color: rgb(226, 220, 220);
@@ -282,6 +282,7 @@ section h3{
   padding-bottom:15px;
 }
 .navbar .bub{
+    /* background-color:rgb(15, 245, 245); */
     background-color:darkslategray;
   color:white;
   margin-left:20px;
@@ -344,7 +345,7 @@ section h3{
 }
 .hero .icon{
   position:absolute;
-  right:260px;
+  right:410px;
   margin-top:45.5px;
   color:rgb(226, 220, 220);
 }
@@ -352,7 +353,7 @@ section h3{
   display:none;
 } */
 .hero input{
-  margin-left:20px;
+  margin-left:160px;
   margin-top:30px;
  padding:15px 50px;
  border:none;
@@ -393,10 +394,12 @@ section h3{
 
 }
 .hero img{
-  right:10px;
-  width:300px;
+  right:5px;
+  /* right:150px; */
+  width:100%;
+  /* width:300px; */
   height:200px;
-  margin-top:520px;
+  margin-top:420px;
   border-radius:5px;
 }
 
@@ -422,7 +425,7 @@ section h3{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap:40px;
-  padding-left:10px;
+  padding-left:150px;
   padding-bottom:60px;
 }
 
@@ -441,7 +444,7 @@ border-top-left-radius: 8px;
 
 .container .section{
   background-color: darkslategray;
-  margin-right:11.5px;
+  margin-right:150px;
   color:white;
   padding-left:10px;
   padding-top:10px;
@@ -479,7 +482,7 @@ border-top-left-radius: 8px;
   padding:10px 20px;
   border:none;
   outline:none;
-  margin-left:10px;
+  margin-left:150px;
 }
 .sapa ::placeholder {
 
@@ -515,7 +518,7 @@ border-top-left-radius: 8px;
 
 }
 
-@media screen and (max-width: 420px) {
+/* @media screen and (max-width: 420px) {
 
 .hero .icon{
   position:absolute;
@@ -532,13 +535,13 @@ border-top-left-radius: 8px;
  outline:none;
  border-radius:20px;
  background-color: darkslategray;
- color:white;
-}
+ color:white; */
+/* }
 .hero .icon{
   position:absolute;
   right:400px;
   margin-top:45.5px;
-  color:rgb(226, 220, 220);
+  color:rgb(239, 98, 98)
 }
 .hero h1{
   margin-top:40px;
@@ -569,9 +572,9 @@ border-top-left-radius: 8px;
   gap:40px;
   padding-left:40px;
   padding-bottom:60px;
-}
+} */
 
-.container img{
+/* .container img{
   width:300px;
 border-top-right-radius: 8px;
 border-top-left-radius: 8px;
@@ -603,11 +606,11 @@ border-top-left-radius: 8px;
   border-radius:8px;
   cursor:pointer;
 } 
+ */
 
 
-/* SAPARIANS STYLING */
 
-.sapa{
+/* .sapa{
   background-color: darkslategray;
   padding-top: 50px;
    color:white;
@@ -643,9 +646,9 @@ border-top-left-radius: 8px;
 .sapa button:hover{
   background-color: rgb(52, 128, 128);
   color:white;
-  cursor:pointer;
-}
-/* FOOTER STYLING */
+  cursor:pointer; */
+/* }
+
 
 .footer{
   box-shadow: 1px 1px 8px;
@@ -664,25 +667,6 @@ border-top-left-radius: 8px;
 
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */
 
 
