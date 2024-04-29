@@ -345,7 +345,7 @@ section h3{
 }
 .hero .icon{
   position:absolute;
-  right:410px;
+  right:310px;
   margin-top:45.5px;
   color:rgb(226, 220, 220);
 }
@@ -353,7 +353,7 @@ section h3{
   display:none;
 } */
 .hero input{
-  margin-left:160px;
+  margin-left:70px;
   margin-top:30px;
  padding:15px 50px;
  border:none;
@@ -394,12 +394,11 @@ section h3{
 
 }
 .hero img{
-  right:5px;
+  right:35px;
   /* right:150px; */
-  width:100%;
-  /* width:300px; */
+  width:350px;
   height:200px;
-  margin-top:420px;
+  margin-top:450px;
   border-radius:5px;
 }
 
@@ -425,7 +424,7 @@ section h3{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap:40px;
-  padding-left:150px;
+  padding-left:50px;
   padding-bottom:60px;
 }
 
@@ -444,7 +443,7 @@ border-top-left-radius: 8px;
 
 .container .section{
   background-color: darkslategray;
-  margin-right:150px;
+  margin-right:65px;
   color:white;
   padding-left:10px;
   padding-top:10px;
@@ -482,7 +481,7 @@ border-top-left-radius: 8px;
   padding:10px 20px;
   border:none;
   outline:none;
-  margin-left:150px;
+  margin-left:50px;
 }
 .sapa ::placeholder {
 
