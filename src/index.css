@@ -273,7 +273,7 @@ section h3{
 /* MOBILE DEVICE STLYING */
 
 
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 480px){
   /* Your CSS styles for mobile devices here */
 .navbar{
   background-color: rgb(226, 220, 220);
@@ -515,7 +515,7 @@ border-top-left-radius: 8px;
 
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
 
 .hero .icon{
   position:absolute;
