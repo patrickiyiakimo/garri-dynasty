@@ -669,7 +669,7 @@ border-top-left-radius: 8px;
 
 } 
 
-@media screen and (max-width: 390) {
+/* @media screen and (max-width: 390) {
   .hero .icon{
   position:absolute;
   right:20px;
@@ -705,29 +705,4 @@ border-top-left-radius: 8px;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ */
