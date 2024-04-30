@@ -517,7 +517,7 @@ border-top-left-radius: 8px;
 
 }
 
-/* @media screen and (max-width: 420px) {
+ @media screen and (max-width: 375px) {
 
 .hero .icon{
   position:absolute;
@@ -534,8 +534,8 @@ border-top-left-radius: 8px;
  outline:none;
  border-radius:20px;
  background-color: darkslategray;
- color:white; */
-/* }
+ color:white; 
+ } 
 .hero .icon{
   position:absolute;
   right:400px;
@@ -550,10 +550,10 @@ border-top-left-radius: 8px;
 }
 
 .hero img{
-  right:140px;
+  right:35px;
   width:300px;
   height:200px;
-  margin-top:400px;
+  margin-top:450px;
   border-radius:5px;
 }
 .popular h1{
@@ -571,9 +571,9 @@ border-top-left-radius: 8px;
   gap:40px;
   padding-left:40px;
   padding-bottom:60px;
-} */
+} 
 
-/* .container img{
+ .container img{
   width:300px;
 border-top-right-radius: 8px;
 border-top-left-radius: 8px;
@@ -588,7 +588,7 @@ border-top-left-radius: 8px;
 
 .container .section{
   background-color: darkslategray;
-  margin-right:139px;
+  margin-right:37px;
   color:white;
   padding-left:10px;
   padding-top:10px;
@@ -605,11 +605,11 @@ border-top-left-radius: 8px;
   border-radius:8px;
   cursor:pointer;
 } 
- */
 
 
 
-/* .sapa{
+
+.sapa{
   background-color: darkslategray;
   padding-top: 50px;
    color:white;
@@ -645,8 +645,8 @@ border-top-left-radius: 8px;
 .sapa button:hover{
   background-color: rgb(52, 128, 128);
   color:white;
-  cursor:pointer; */
-/* }
+  cursor:pointer; 
+}
 
 
 .footer{
@@ -660,12 +660,75 @@ border-top-left-radius: 8px;
   padding-bottom:10px;
 }
 
+.sapa input{
+  background-color: white;
+  padding:10px 20px;
+  border:none;
+  outline:none;
+  margin-left:35px;
+}
+
+} 
+
+@media screen and (max-width: 390) {
+  .hero .icon{
+  position:absolute;
+  right:20px;
+  margin-top:45.5px;
+  color:rgb(171, 31, 31);
+  color:rgb(226, 220, 220);
+}
+.hero img{
+  right:25px;
+  width:300px;
+  height:200px;
+  margin-top:450px;
+  border-radius:5px;
+} 
+.content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap:40px;
+  padding-left:40px;
+  padding-bottom:60px;
+} 
+
+.container .section{
+  background-color: darkslategray;
+  margin-right:47px;
+  color:white;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+
+}
 
 
 
 
 
 
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
