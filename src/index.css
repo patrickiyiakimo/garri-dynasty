@@ -248,6 +248,72 @@ section h3{
   color:darkslategray;
 }
 
+/* SIGN UP STYLING  */
+
+.main{
+  background-color:rgb(226, 220, 220);
+  padding-left:10px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  
+}
+
+.signup h1{
+  padding-top:5px;
+  padding-bottom:10px;
+  text-align: center;
+  color:darkslategray;
+}
+.signup p{
+  text-align: center;
+color:darkslategray;
+}
+.signup input{
+  color:rgb(226, 220, 220);
+padding:10px 80px;
+border-radius:5px;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:500px;
+border:none;
+outline:none;
+background-color:darkslategray;
+}
+.signup button{
+  padding:10px 80px;
+  margin-left:560px;
+  background-color: darkslategray;
+  color:white;
+  border:none;
+  border-radius:5px;
+  outline:none;
+  margin-bottom:20px;
+}
+.signup h5{
+  color:darkslategray;
+  text-align: center;
+  padding-top:10px;
+  margin-bottom:30px;
+}
+
+.signup span{
+  color:blue;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
