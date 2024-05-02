@@ -29,7 +29,9 @@ const Navbar = () => {
           </section>
         </li>
         <li>
-          <button>Sign Up</button>
+          <Link to="signup" className="signup">
+            <button>Sign Up</button>
+          </Link>
         </li>
       </ul>
     </div>

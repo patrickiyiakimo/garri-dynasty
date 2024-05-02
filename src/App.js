@@ -3,6 +3,7 @@ import Hero from "./hero/Hero";
 import Navbar from "./navbar/Navbar";
 import PopularGarri from "./popular/PopularGarri";
 import CartList from "./cartlist/CartList";
+import SignUp from "./navbar/SignUp";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/cartlist">
             <CartList />
+          </Route>
+          <Route path="/signup">
+            <SignUp />
           </Route>
         </Switch>
       </div>

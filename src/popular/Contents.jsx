@@ -148,6 +148,8 @@ const Contents = () => {
         theme: "dark",
       });
     } else {
+      const updatedCart = [...cart, item];
+      setCart(updatedCart)
       setCart([...cart, item]);
 
       toast.success(`${item.title} added to cart successfully`, {
@@ -183,7 +185,7 @@ const Contents = () => {
           </div>
         ))}
       </div>
-      <CartList cart={cart} />
+      {/* <CartList cart={cart} /> */}
     </div>
   );
 };
