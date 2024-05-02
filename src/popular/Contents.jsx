@@ -155,7 +155,7 @@ const Contents = () => {
   
   
   const notify = (item, cartitems) => {
-
+    // const condition = true
     setCart([...cart, cartitems]);
 
    toast.success(`${ item.title } added to cart successfully`, {
@@ -168,18 +168,7 @@ const Contents = () => {
      progress: undefined,
      theme: "dark",
    });
-    // toast.error(`${ item.title } Removed from cart`, {
-    //   position: "top-right",
-    //   autoClose: 3000,
-    //   hideProgressBar: false,
-    //   closeOnClick: true,
-    //   pauseOnHover: true,
-    //   draggable: true,
-    //   progress: undefined,
-    //   theme: "dark",
-    // });
-
-
+  
   }
 
   return (
@@ -192,7 +181,8 @@ const Contents = () => {
             <p>{item.title}</p>
             <p>{item.price}</p>
             <p>{item.rating}</p>
-            <button onClick={() => notify(item)}>ADD TO CART</button>
+           {/* <button onClick={() => notify(item)}>
+             {condition ? "ADD TO CART": "ADDED TO CART" }</button> */}
           </div>
         </div>
       ))}
@@ -201,3 +191,17 @@ const Contents = () => {
 };
 
 export default Contents;
+
+
+
+
+  // toast.error(`${ item.title } Removed from cart`, {
+    //   position: "top-right",
+    //   autoClose: 3000,
+    //   hideProgressBar: false,
+    //   closeOnClick: true,
+    //   pauseOnHover: true,
+    //   draggable: true,
+    //   progress: undefined,
+    //   theme: "dark",
+    // });
