@@ -149,7 +149,7 @@ const Contents = () => {
       });
     } else {
       const updatedCart = [...cart, item];
-      setCart(updatedCart)
+      setCart(updatedCart);
       setCart([...cart, item]);
 
       toast.success(`${item.title} added to cart successfully`, {
@@ -191,4 +191,3 @@ const Contents = () => {
 };
 
 export default Contents;
-
