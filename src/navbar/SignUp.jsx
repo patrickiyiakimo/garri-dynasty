@@ -22,7 +22,7 @@ const SignUp = () => {
             Already have an account? <a href="/">Log In</a>
           </p>
           <h5>
-            By signing up to create an account I accept Garri Dynasty{" "}
+            By signing up to create an account I accept Garri Dynasty
             <span>Terms of use and privacy policy.</span>
           </h5>
         </form>

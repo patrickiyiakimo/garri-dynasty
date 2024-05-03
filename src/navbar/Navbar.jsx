@@ -25,7 +25,9 @@ const Navbar = () => {
         </li>
         <li>
           <section>
-            <button>Log In</button>
+            <Link to="login" className="login">
+              <button>Log In</button>
+            </Link>
           </section>
         </li>
         <li>

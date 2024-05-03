@@ -269,6 +269,9 @@ section h3{
   text-align: center;
 color:darkslategray;
 }
+.signup a{
+  color:rgb(43, 43, 147);
+}
 .signup input{
   color:rgb(226, 220, 220);
 padding:10px 80px;
@@ -290,6 +293,10 @@ background-color:darkslategray;
   outline:none;
   margin-bottom:20px;
 }
+.signup button:hover{
+  background-color: rgb(80, 132, 132);
+  cursor: pointer;
+}
 .signup h5{
   color:darkslategray;
   text-align: center;
@@ -298,13 +305,60 @@ background-color:darkslategray;
 }
 
 .signup span{
-  color:blue;
+  color:rgb(43, 43, 147);
   text-decoration: underline;
 }
+.signup span:hover{
+  cursor: pointer;
+}
 
+/* LOG IN STYLING */
 
+.login h1{
+  padding-top:90px;
+  padding-bottom:10px;
+  text-align: center;
+  color:darkslategray;
+}
+.login{
+  background-color:rgb(226, 220, 220);
+  padding-left:10px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:20px;
+  
+}
+.login input{
+  color:rgb(226, 220, 220);
+padding:10px 80px;
+border-radius:5px;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:500px;
+border:none;
+outline:none;
+background-color:darkslategray;
+}
+.login span button{
+  padding:10px 80px;
+  margin-left:560px;
+  background-color: darkslategray;
+  color:white;
+  border:none;
+  border-radius:5px;
+  outline:none;
+  margin-top:30px;
+  margin-bottom:119px;
+}
+.login span button:hover{
+  background-color: rgb(80, 132, 132);
+  cursor: pointer;
+}
 
-
+.login p{
+  text-align: center;
+color:darkslategray;
+}
 
 
 

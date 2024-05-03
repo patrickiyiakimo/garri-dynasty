@@ -4,6 +4,7 @@ import Navbar from "./navbar/Navbar";
 import PopularGarri from "./popular/PopularGarri";
 import CartList from "./cartlist/CartList";
 import SignUp from "./navbar/SignUp";
+import LogIn from "./navbar/LogIn";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/signup">
             <SignUp />
+          </Route>
+          <Route path="/login">
+            <LogIn />
           </Route>
         </Switch>
       </div>
