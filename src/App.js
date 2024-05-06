@@ -6,6 +6,7 @@ import CartList from "./cartlist/CartList";
 import SignUp from "./navbar/SignUp";
 import LogIn from "./navbar/LogIn";
 
+
 function App() {
   return (
     <Router>

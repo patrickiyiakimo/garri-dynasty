@@ -1,5 +1,10 @@
 import React from "react";
 
+
+const handleClick = () => {
+    alert('thanks for signing up')
+}
+
 const SignUp = () => {
   return (
     <div className="main">
@@ -17,7 +22,7 @@ const SignUp = () => {
           <br />
           <input type="password" name="text" required placeholder="Password" />
           <br />
-          <button>Sign Up</button>
+          <button onClick={handleClick}>Sign Up</button>
           <p>
             Already have an account? <a href="/">Log In</a>
           </p>

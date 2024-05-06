@@ -46,6 +46,9 @@ box-shadow:1px 1px 8px;
 .navbar li{
   margin-right:70px;
 }
+.navbar .times{
+  display:none;
+}
 .navbar li section button{
   margin-left:80px;
   background-color: transparent;
@@ -410,6 +413,7 @@ color:darkslategray;
   border-radius:8px;
   border:none;
 }
+
 .navbar button{
    background-color:darkslategray;
   color:white;
@@ -870,8 +874,58 @@ border-top-left-radius: 8px;
   margin-left:35px;
 }
 
-} 
+.signup input{
+  color:rgb(226, 220, 220);
+padding:10px 80px;
+border-radius:5px;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:50px;
+border:none;
+outline:none;
+background-color:darkslategray;
+}
+.signup button{
+  padding:10px 80px;
+  margin-left:100px;
+  background-color: darkslategray;
+  color:white;
+  border:none;
+  border-radius:5px;
+  outline:none;
+  margin-bottom:20px;
+}
 
+.signup h5{
+  color:darkslategray;
+  text-align: center;
+  padding-top:10px;
+  margin-bottom:117px;
+}
+.login input{
+  color:rgb(226, 220, 220);
+padding:10px 80px;
+border-radius:5px;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:50px;
+border:none;
+outline:none;
+background-color:darkslategray;
+}
+.login span button{
+  padding:10px 80px;
+  margin-left:100px;
+  background-color: darkslategray;
+  color:white;
+  border:none;
+  border-radius:5px;
+  outline:none;
+  margin-top:30px;
+
+  } 
+
+ }
 /* @media screen and (max-width: 390) {
   .hero .icon{
   position:absolute;

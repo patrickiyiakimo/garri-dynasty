@@ -1,5 +1,9 @@
 import React from "react";
 
+const handleClick = () => {
+    alert('thanks for logging in')
+}
+
 const LogIn = () => {
   return (
     <div className="login">
@@ -11,7 +15,7 @@ const LogIn = () => {
         <input type="text" name="text" required placeholder="Password" />
         <br />
         <span>
-          <button>Log In</button>
+          <button onClick={handleClick}>Log In</button>
         </span>
       </form>
     </div>

@@ -165,6 +165,11 @@ const Contents = () => {
     }
   };
 
+  // const removeItem = (id) => {
+  //   let newItems = defaultItems.filter((items) => items.id !== id);
+  //   setDefaultItems(newItems);
+  // };
+
   return (
     <div>
       <div className="content">

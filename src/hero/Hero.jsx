@@ -1,11 +1,14 @@
 import garri from "../images/yellow-garri-white-on-background-260nw-2174347367.jpg";
 import { FaSearch } from "react-icons/fa";
+import React from "react";
 
 const Hero = () => {
+ 
+
   return (
     <div className="hero">
       <FaSearch className="icon" />
-      <input type="text" placeholder="search favourite garri here" />
+      <input type="text" placeholder="search favourite garri here"/>
       <img src={garri} alt="garri-pics" />
       <h1>
         The Garri Dynasty, <br />
