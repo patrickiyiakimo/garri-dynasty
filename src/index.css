@@ -24,7 +24,6 @@ body {
 
 }
 
-
 .navbar ul{
   display:flex;
   list-style-type: none;
@@ -313,7 +312,7 @@ background-color:darkslategray;
   border:none;
   border-radius:5px;
   outline:none;
-  margin-bottom:20px;
+  margin-bottom:31px;
 }
 .signup button:hover{
   background-color: rgb(80, 132, 132);
@@ -370,7 +369,7 @@ background-color:darkslategray;
   border-radius:5px;
   outline:none;
   margin-top:30px;
-  margin-bottom:119px;
+  margin-bottom:130px;
 }
 .login span button:hover{
   background-color: rgb(80, 132, 132);
@@ -420,21 +419,24 @@ color:darkslategray;
 .navbar{
   background-color: rgb(226, 220, 220);
   color:darkslategray;
-  padding-top:3px;
-  padding-bottom:15px;
+  /* padding-top:3px; */
+  /* padding-bottom:15px; */
+  flex-direction: column;
+  align-items: start;
+  /* transition: max-height 0.5s ease; */
 }
 .navbar .bub{
   background-color:darkslategray;
   color:white;
-  margin-top:5px;
+  margin-top:25px;
   margin-left:20px;
   padding:10px;
   outline:none;
   border-radius:8px;
   border:none;
 }
-
-.navbar button{
+/* cross-check this */
+/* .navbar button{
    background-color:darkslategray;
   color:white;
   margin-left:20px;
@@ -442,12 +444,16 @@ color:darkslategray;
   outline:none;
   border-radius:8px;
   border:none;
-}
+} */
 
 .navbar ul{
-  display:flex;
+  /* display:flex; */
+  flex-direction: column;
+  width:100%;
+  margin-bottom:0.25rem;
   list-style-type: none;
 }
+
 .navbar .cart{
   color:darkslategray;
 
@@ -457,38 +463,49 @@ color:darkslategray;
  cursor:pointer;
 }
 .navbar li span button{
-  background-color:darkslategray;
-  color:white;
-  margin-left:30px;
-  padding:10px;
-  outline:none;
-  border-radius:8px;
-  border:none;
-  margin-right:20px;
+  /* background-color:darkslategray; */
+  display:none;
+  /* color:white; */
+  /* margin-left:30px; */
+  /* padding:10px; */
+  /* outline:none; */
+  /* border-radius:8px; */
+  /* border:none; */
+  /* margin-right:20px; */
 }
+
+/* remember to adjust this back to li*/
 .navbar li{
-  margin-right:70px;
-   display: none;
+  margin-top:20px;
+  margin-bottom:0.5rem;
+  display:none;
+}
+.navbar ul li{
+  width:100%;
+  text-align: center;
+}
+.navbar ul.open{
+  display:flex;
 }
 .navbar li section button{
-  margin-left:80px;
+  margin-left:5px;
   background-color: transparent;
   padding:10px 15px;
   border-radius:5px;
   border:none;
   outline:none;
   color:darkslategray;
-  display:none;
+
 }
-.blocker{
-  background-color: darkslategray;
-}
+
 .navbar .custom-icon{
-  display:block;
+  display:flex;
   position:absolute;
-  width:50px;
+  top:0.75rem;
+  width:20px;
+  right:0.5rem;
   left:88%;
-  bottom:25%;
+  bottom:3%;
 }
 
 /* HERO STYLING */

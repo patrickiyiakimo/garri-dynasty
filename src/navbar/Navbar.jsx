@@ -1,47 +1,65 @@
 import React from "react";
-import { FaShoppingCart, FaHeart, FaTimes, } from "react-icons/fa";
+import { FaShoppingCart, FaHeart, FaTimes } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link } from "react-router-dom";
-import Blocker from "./Blocker";
+import { NavLink } from "react-router-dom";
+// import Blocker from "./Blocker";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = React.useState(false);
   return (
-    <div className="navbar">
+    <nav
+      className="navbar"
+      onClick={() => {
+        {
+          setMenuOpen(!menuOpen);
+        }
+        console.log(menuOpen);
+      }}
+    >
       <button className="bub">Garri Dynasty</button>
-      <ul>
-        <li className="custom-icon"><strong><FaTimes /></strong></li>
-        <li className="custom-icon"><strong>< GiHamburgerMenu /></strong></li>
-        <li>
-          <Blocker />
-          <span>
-            <button>Garri Dynasty</button>
-          </span>
-        </li>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Subscribe</li>
-        <li>
-          <Link to="cartlist" className="cart">
-            <FaShoppingCart color="" />
-          </Link>
-        </li>
-        <li>
-          <FaHeart color="" />
-        </li>
-        <li>
-          <section>
-            <Link to="login" className="login">
-              <button>Log In</button>
-            </Link>
-          </section>
-        </li>
-        <li>
-          <Link to="signup" className="signup">
-            <button>Sign Up</button>
-          </Link>
-        </li>
-      </ul>
-    </div>
+      <div>
+        <ul className={menuOpen ? "open" : ""}>
+          {/* <li className="custom-icon">
+            <strong>
+              <FaTimes />
+            </strong>
+          </li> */}
+          <li className="custom-icon">
+            <strong>
+              <GiHamburgerMenu />
+            </strong>
+          </li>
+          <li>
+            <span>
+              <button>Garri Dynasty</button>
+            </span>
+          </li>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Subscribe</li>
+          <li>
+            <NavLink to="cartlist" className="cart">
+              <FaShoppingCart color="" />
+            </NavLink>
+          </li>
+          <li>
+            <FaHeart color="" />
+          </li>
+          <li>
+            <section>
+              <NavLink to="login" className="login">
+                <button>Log In</button>
+              </NavLink>
+            </section>
+          </li>
+          <li>
+            <NavLink to="signup" className="signup">
+              <button>Sign Up</button>
+            </NavLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 

@@ -1,13 +1,13 @@
-import React from 'react'
+// import React from 'react'
 
-const Blocker = () => {
-  return (
-      <div className='blocker'>
-          <ul>
-              {/* <h1>hello world</h1> */}
-          </ul>
-    </div>
-  )
-}
+// const Blocker = () => {
+//   return (
+//       <div className='blocker'>
+//           <ul>
+              
+//           </ul>
+//     </div>
+//   )
+// }
 
-export default Blocker
+// export default Blocker
