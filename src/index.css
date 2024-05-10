@@ -130,6 +130,7 @@ box-shadow:1px 1px 8px;
 }
 .hero img{
   position:absolute;
+  margin-bottom:30px;
   margin-top:250px;
   border-radius:5px;
 }
@@ -548,7 +549,7 @@ color:darkslategray;
 .popular h1{
   text-align: center;
   text-decoration: underline;
-  padding-top:90px;
+  padding-top:30px;
   padding-right:25px;
   color:darkslategray;
   padding-bottom:20px;
