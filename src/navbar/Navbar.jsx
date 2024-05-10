@@ -9,8 +9,8 @@ const Navbar = () => {
     <div className="navbar">
       <button className="bub">Garri Dynasty</button>
       <ul>
-        <li className="times"><strong><FaTimes /></strong></li>
-        <li className="times"><strong>< GiHamburgerMenu /></strong></li>
+        <li className="custom-icon"><strong><FaTimes /></strong></li>
+        <li className="custom-icon"><strong>< GiHamburgerMenu /></strong></li>
         <li>
           <span>
             <button>Garri Dynasty</button>

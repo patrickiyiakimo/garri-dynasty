@@ -46,7 +46,7 @@ box-shadow:1px 1px 8px;
 .navbar li{
   margin-right:70px;
 }
-.navbar .times{
+.navbar .custom-icon{
   display:none;
 
 }
@@ -477,11 +477,11 @@ color:darkslategray;
   display:none;
 }
 
-.navbar .times{
+.navbar .custom-icon{
   display:block;
   position:absolute;
- 
-  left:90%;
+  width:50px;
+  left:88%;
   bottom:92%;
 }
 
