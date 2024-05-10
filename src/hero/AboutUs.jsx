@@ -3,7 +3,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="about">
-      <h1>About Garri-Dynasty</h1>
+      <h1>About Garri Dynasty</h1>
       <p>
         Welcome to Garri-Dynasty, where tradition meets innovation to serve the
         Nigerian community. At Garri-Dynasty, we take pride in our rich heritage
