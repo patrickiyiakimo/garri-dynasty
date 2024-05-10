@@ -536,10 +536,16 @@ color:darkslategray;
   /* right:150px; */
   width:350px;
   height:200px;
-  margin-top:450px;
+  margin-top:500px;
   border-radius:5px;
 }
-
+.about h1{
+  margin-left:0px;
+  padding-bottom:5px;
+}
+.about p{
+  margin-left:0px;
+}
 
 /* POPULAR GARRI STYLING */
 
