@@ -4,7 +4,7 @@ import NagikoImage from "../images/Nagiko Garri.jpg";
 import { toast } from "react-toastify";
 import CartList from "../cartlist/CartList";
 
-const Contents = () => {
+const Contents = ({ }) => {
   const [cart, setCart] = useState([]);
   const [defaultItems, setDefaultItems] = useState([
     {
@@ -130,11 +130,17 @@ const Contents = () => {
     },
   ]);
 
+   const removeFromCart = (itemId) => {
+     const updatedCart = cart.filter((item) => item.id !== itemId);
+     setCart(updatedCart);
+   };
+
   const notify = (item) => {
     const itemIndex = cart.findIndex((cartItem) => cartItem.id === item.id);
     if (itemIndex !== -1) {
       const updatedCart = [...cart];
       updatedCart.splice(itemIndex, 1);
+      console.log('updated cart after removing:', updatedCart)
       setCart(updatedCart);
 
       toast.error(`${item.title} Removed from cart`, {
@@ -149,8 +155,9 @@ const Contents = () => {
       });
     } else {
       const updatedCart = [...cart, item];
+      console.log("Updated cart after adding:", updatedCart)
       setCart(updatedCart);
-      setCart([...cart, item]);
+      // setCart([...cart, item]);
 
       toast.success(`${item.title} added to cart successfully`, {
         position: "top-right",
@@ -165,10 +172,6 @@ const Contents = () => {
     }
   };
 
-  // const removeItem = (id) => {
-  //   let newItems = defaultItems.filter((items) => items.id !== id);
-  //   setDefaultItems(newItems);
-  // };
 
   return (
     <div>
@@ -190,7 +193,7 @@ const Contents = () => {
           </div>
         ))}
       </div>
-      {/* <CartList cart={cart} /> */}
+      <CartList cart={cart} removeFromCart={removeFromCart} />
     </div>
   );
 };

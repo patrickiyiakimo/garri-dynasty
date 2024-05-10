@@ -1,6 +1,7 @@
 import garri from "../images/yellow-garri-white-on-background-260nw-2174347367.jpg";
 import { FaSearch } from "react-icons/fa";
 import React from "react";
+import AboutUs from "./AboutUs";
 
 const Hero = () => {
  
@@ -22,6 +23,7 @@ const Hero = () => {
         amet! Nisi.
       </p>
       <button>GET STARTED</button>
+      <AboutUs />
     </div>
   );
 };

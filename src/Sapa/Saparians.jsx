@@ -5,7 +5,7 @@ const Saparians = () => {
     <div className="sapa">
       <h3>Food for saparians!!!</h3>
       <input type="text" placeholder="subscribe to our latest garri" />
-          <button>Subscribe</button>
+          <button onClick={() => alert('Thanks for Subscribing')}>Subscribe</button>
           <Footer />
     </div>
   );
