@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <FaSearch className="icon" />
-      <input type="text" placeholder="search favourite garri here"/>
+      <input type="text" placeholder="search favourite garri here" />
       <img src={garri} alt="garri-pics" />
       <h1>
         The Garri Dynasty, <br />
@@ -17,10 +17,11 @@ const Hero = () => {
       </h1>
       <p>The hunger destroyer</p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, <br />
-        adipisicing elit. Facilis, nobis! Modi dolores eligendi
-        <br /> nisi impedit, et, hic assumenda dolorum,<br/> minima voluptatem odio
-        amet! Nisi.
+        For over a century, Garri has been more than just a staple<br/> food in
+        Nigeria – it has been a lifeline, nourishing generations and sustaining<br/>
+        communities <br/>through times of plenty and scarcity alike. Since its
+        introduction in 1900, <br/>Garri has played a pivotal role in the Nigerian
+        diet, <br/>offering a reliable source of energy and nutrition to millions.
       </p>
       <button>GET STARTED</button>
       <AboutUs />
