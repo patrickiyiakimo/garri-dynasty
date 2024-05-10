@@ -10,9 +10,12 @@ body {
 .navbar{
   background-color: rgb(226, 220, 220);
   color:darkslategray;
-padding-top:15px;
-padding-bottom:15px;
-box-shadow:1px 1px 8px;
+  padding-top:3px;
+  padding-bottom:15px;
+  box-shadow:1px 1px 8px;
+  position:sticky;
+  top:0;
+  z-index: 100;
 }
 .navbar .bub{
   border:none;
@@ -417,12 +420,13 @@ color:darkslategray;
 .navbar{
   background-color: rgb(226, 220, 220);
   color:darkslategray;
-  padding-top:15px;
+  padding-top:3px;
   padding-bottom:15px;
 }
 .navbar .bub{
   background-color:darkslategray;
   color:white;
+  margin-top:5px;
   margin-left:20px;
   padding:10px;
   outline:none;
@@ -476,13 +480,15 @@ color:darkslategray;
   color:darkslategray;
   display:none;
 }
-
+.blocker{
+  background-color: darkslategray;
+}
 .navbar .custom-icon{
   display:block;
   position:absolute;
   width:50px;
   left:88%;
-  bottom:92%;
+  bottom:25%;
 }
 
 /* HERO STYLING */

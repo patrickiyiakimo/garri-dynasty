@@ -1,8 +1,8 @@
 import React from "react";
 import { FaShoppingCart, FaHeart, FaTimes, } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
-
 import { Link } from "react-router-dom";
+import Blocker from "./Blocker";
 
 const Navbar = () => {
   return (
@@ -12,6 +12,7 @@ const Navbar = () => {
         <li className="custom-icon"><strong><FaTimes /></strong></li>
         <li className="custom-icon"><strong>< GiHamburgerMenu /></strong></li>
         <li>
+          <Blocker />
           <span>
             <button>Garri Dynasty</button>
           </span>
