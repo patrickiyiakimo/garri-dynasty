@@ -4,7 +4,7 @@ import NagikoImage from "../images/Nagiko Garri.jpg";
 import { toast } from "react-toastify";
 import CartList from "../cartlist/CartList";
 
-const Contents = ({ }) => {
+const Contents = ({}) => {
   const [cart, setCart] = useState([]);
   const [defaultItems, setDefaultItems] = useState([
     {
@@ -130,72 +130,72 @@ const Contents = ({ }) => {
     },
   ]);
 
-   const removeFromCart = (itemId) => {
-     const updatedCart = cart.filter((item) => item.id !== itemId);
-     setCart(updatedCart);
+    const removeFromCart = (itemId) => {
+      const updatedCart = cart.filter((item) => item.id !== itemId);
+      setCart(updatedCart);
+    };
+
+   const notify = (item) => {
+     const itemIndex = cart.findIndex((cartItem) => cartItem.id === item.id);
+     if (itemIndex !== -1) {
+       const updatedCart = [...cart];
+       updatedCart.splice(itemIndex, 1);
+       console.log('updated cart after removing:', updatedCart)
+       setCart(updatedCart);
+
+       toast.error(`${item.title} Removed from cart`, {
+         position: "top-right",
+         autoClose: 5000,
+         hideProgressBar: false,
+        closeOnClick: true,
+         pauseOnHover: true,
+         draggable: true,
+         progress: undefined,
+         theme: "dark",
+       });
+     } else {
+       const updatedCart = [...cart, item];
+       console.log("Updated cart after adding:", updatedCart)
+       setCart(updatedCart);
+       setCart([...cart, item]);
+      toast.success(`${item.title} added to cart successfully`, {
+         position: "top-right",
+         autoClose: 5000,
+         hideProgressBar: false,
+         closeOnClick: true,
+         pauseOnHover: true,
+         draggable: true,
+         progress: undefined,
+         theme: "dark",
+       });
+     }
    };
 
-  const notify = (item) => {
-    const itemIndex = cart.findIndex((cartItem) => cartItem.id === item.id);
-    if (itemIndex !== -1) {
-      const updatedCart = [...cart];
-      updatedCart.splice(itemIndex, 1);
-      console.log('updated cart after removing:', updatedCart)
-      setCart(updatedCart);
+     return (
+       <div>
+         <div className="content">
+           {defaultItems.map((item) => (
+             <div className="container" key={item.id}>
+               <FaHeart className="svg" />
+               <img src={NagikoImage} alt="nakigo" />
+               <div className="section">
+                 <p>{item.title}</p>
+                 <p>{item.price}</p>
+                 <p>{item.rating}</p>
+                 <button onClick={() => notify(item)}>
+                   {cart.find((cartItem) => cartItem.id === item.id)
+                     ? "REMOVED FROM CART"
+                     : "ADD TO CART"}
+             </button>
+           </div>
+             </div>
+           ))}
+         </div>
+         <CartList cart={cart} removeFromCart={removeFromCart} />
+       </div>
+     );
+   };
 
-      toast.error(`${item.title} Removed from cart`, {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-      });
-    } else {
-      const updatedCart = [...cart, item];
-      console.log("Updated cart after adding:", updatedCart)
-      setCart(updatedCart);
-      // setCart([...cart, item]);
+   export default Contents;
 
-      toast.success(`${item.title} added to cart successfully`, {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-      });
-    }
-  };
-
-
-  return (
-    <div>
-      <div className="content">
-        {defaultItems.map((item) => (
-          <div className="container" key={item.id}>
-            <FaHeart className="svg" />
-            <img src={NagikoImage} alt="nakigo" />
-            <div className="section">
-              <p>{item.title}</p>
-              <p>{item.price}</p>
-              <p>{item.rating}</p>
-              <button onClick={() => notify(item)}>
-                {cart.find((cartItem) => cartItem.id === item.id)
-                  ? "REMOVED FROM CART"
-                  : "ADD TO CART"}
-              </button>
-            </div>
-          </div>
-        ))}
-      </div>
-      <CartList cart={cart} removeFromCart={removeFromCart} />
-    </div>
-  );
-};
-
-export default Contents;
+  

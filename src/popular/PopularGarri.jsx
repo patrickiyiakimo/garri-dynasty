@@ -23,6 +23,7 @@ const PopularGarri = () => {
         pauseOnHover
         theme="dark"
       />
+      
     </div>
   );
 };

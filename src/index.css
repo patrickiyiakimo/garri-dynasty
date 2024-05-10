@@ -48,6 +48,7 @@ box-shadow:1px 1px 8px;
 }
 .navbar .times{
   display:none;
+
 }
 .navbar li section button{
   margin-left:80px;
@@ -474,6 +475,14 @@ color:darkslategray;
   outline:none;
   color:darkslategray;
   display:none;
+}
+
+.navbar .times{
+  display:block;
+  position:absolute;
+ 
+  left:90%;
+  bottom:92%;
 }
 
 /* HERO STYLING */

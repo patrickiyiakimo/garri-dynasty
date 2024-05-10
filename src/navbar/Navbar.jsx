@@ -1,5 +1,7 @@
 import React from "react";
-import { FaShoppingCart, FaHeart, FaTimes } from "react-icons/fa";
+import { FaShoppingCart, FaHeart, FaTimes, } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -8,6 +10,7 @@ const Navbar = () => {
       <button className="bub">Garri Dynasty</button>
       <ul>
         <li className="times"><strong><FaTimes /></strong></li>
+        <li className="times"><strong>< GiHamburgerMenu /></strong></li>
         <li>
           <span>
             <button>Garri Dynasty</button>
