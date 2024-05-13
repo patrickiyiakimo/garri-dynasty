@@ -417,13 +417,12 @@ color:darkslategray;
 @media screen and (max-width: 750px){
   /* Your CSS styles for mobile devices here */
 .navbar{
+  
   background-color: rgb(226, 220, 220);
   color:darkslategray;
-  /* padding-top:3px; */
-  /* padding-bottom:15px; */
   flex-direction: column;
   align-items: start;
-  /* transition: max-height 0.5s ease; */
+
 }
 .navbar .bub{
   background-color:darkslategray;
@@ -446,8 +445,8 @@ color:darkslategray;
   border:none;
 } */
 
+
 .navbar ul{
-  /* display:flex; */
   flex-direction: column;
   width:100%;
   margin-bottom:0.25rem;
@@ -474,7 +473,7 @@ color:darkslategray;
   /* margin-right:20px; */
 }
 
-/* remember to adjust this back to li*/
+
 .navbar li{
   margin-top:20px;
   margin-bottom:0.5rem;
@@ -487,6 +486,10 @@ color:darkslategray;
 .navbar ul.open{
   display:flex;
 }
+/* .active{
+  background-color: darkslategray;
+  padding:10px 15px;
+} */
 .navbar li section button{
   margin-left:5px;
   background-color: transparent;

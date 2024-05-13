@@ -1,23 +1,21 @@
 import React from "react";
-import { FaShoppingCart, FaHeart, FaTimes } from "react-icons/fa";
+import { FaShoppingCart, FaHeart } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
-// import Blocker from "./Blocker";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
   return (
-    <nav
-      className="navbar"
-      onClick={() => {
-        {
-          setMenuOpen(!menuOpen);
-        }
-        console.log(menuOpen);
-      }}
-    >
+    <nav className="navbar">
       <button className="bub">Garri Dynasty</button>
-      <div>
+      <div 
+        onClick={() => {
+          {
+            setMenuOpen(!menuOpen);
+          }
+          console.log(menuOpen);
+        }}
+      >
         <ul className={menuOpen ? "open" : ""}>
           {/* <li className="custom-icon">
             <strong>
